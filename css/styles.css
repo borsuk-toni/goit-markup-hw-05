@@ -466,6 +466,7 @@ a {
 .footer-soc-list {
     display: flex;
     gap: 16px;
+    margin-right: 80px;
 }
 
 .footer-soc-item {
@@ -492,3 +493,47 @@ a {
 .footer-soc-icon {
     fill: #F4F4FD;
 }
+
+.footer-form {}
+
+.footer-form-label {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-input {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 8px 212px 8px 16px;
+    max-width: 264px;
+}
+
+.footer-input::placeholder {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+
+.footer-btn {
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFF;
+    padding: 8px 24px;
+    font-family: inherit;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
