@@ -740,9 +740,6 @@ a {
 
 .checkbox-span {
     display: inline-flex;
-}
-
-.check-text span {
     align-items: center;
     justify-content: center;
     fill: transparent;
